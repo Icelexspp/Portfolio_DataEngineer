@@ -1,0 +1,17 @@
+import sys
+#module ที่จะสร้างการตอบโต้จากuser
+from tkinter import Tk,simpledialog,messagebox 
+
+def cal_rectangle():
+    width = int(input('Enter width(cm):'))
+    height = int(input('Enter height(cm):'))
+    area_calculator = ('Area Calcalator '+int(width*height))
+    
+root = Tk()
+root.withdraw()
+while True:
+    simpledialog.askinteger
+    query_width = ' '
+    query_width = simpledialog.askinteger('Width','Enter width(cm) ')
+    query_height = simpledialog.askinteger('Height','Enter height(cm) ')
+    messagebox.showinfo(query_width*query_height )
